@@ -6,10 +6,11 @@ public class Aluno extends Pessoa {
   private String tipoAluno;
   private String classe;
   private String nomeEscola;
+  private String Tipo;
 
   // Construtor
   public Aluno(String matricula, String tipoAluno, String classe, String nomeEscola,
-  String nome, String sobreNome, String ultimoNome, int dia, int mes, int ano,
+  String nome, String Tipo , String sobreNome, String ultimoNome, int dia, int mes, int ano,
   String rg) {
   super(nome, sobreNome, ultimoNome, dia, mes, ano, rg);
   this.matricula = matricula;
@@ -53,6 +54,13 @@ public class Aluno extends Pessoa {
 
   public void setNomeEscola(String nomeEscola) {
   this.nomeEscola = nomeEscola;
+  }
+   public String getTipo() {
+  return Tipo;
+  }
+
+  public void setTipo(String Tipo) {
+  this.Tipo = Tipo;
   }
 
   @Override
