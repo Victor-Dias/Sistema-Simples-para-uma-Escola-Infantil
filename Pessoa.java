@@ -1,3 +1,5 @@
+package ifpb.escola;
+
 public class Pessoa {
 
   // Atributos de instância
