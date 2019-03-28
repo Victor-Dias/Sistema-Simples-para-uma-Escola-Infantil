@@ -13,7 +13,7 @@ public class ProjetoEscola {
   {
   case 1:
   String nome = JOptionPane.showInputDialog("Digite o nome do aluno: ");
-  String sobreNome = JOptionPane.showInputDialog("Digite o sobre nome: ");
+  String sobreNome = JOptionPane.showInputDialog("Digite o sobrenome: ");
   String ultimoNome = JOptionPane.showInputDialog("Digite o último nome: ");
   int dia = Integer.parseInt(JOptionPane.showInputDialog("Digite o dia do nascimento: "));
   int mes = Integer.parseInt(JOptionPane.showInputDialog("Digite o mês do nascimento: "));
