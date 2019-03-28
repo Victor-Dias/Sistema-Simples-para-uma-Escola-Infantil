@@ -1,4 +1,4 @@
-package projetoescola;
+package ifpb.escola;
 
 import javax.swing.JOptionPane;
 
